@@ -3,25 +3,25 @@
   font-family: "BinancePlex";
   font-style: normal;
   font-weight: 300;
-  src: url("Fonts/BinancePlex-Light.woff2") format("woff2");
+  src: url("../Fonts/BinancePlex-Light.woff2") format("woff2");
 }
 @font-face {
   font-family: "BinancePlex";
   font-style: normal;
   font-weight: 400;
-  src: url("Fonts/BinancePlex-Regular.woff2") format("woff2");
+  src: url("../Fonts/BinancePlex-Regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "BinancePlex";
   font-style: normal;
   font-weight: 500;
-  src: url("Fonts/BinancePlex-Medium.woff2") format("woff2");
+  src: url("../Fonts/BinancePlex-Medium.woff2") format("woff2");
 }
 @font-face {
   font-family: "BinancePlex";
   font-style: normal;
   font-weight: 600;
-  src: url("Fonts/BinancePlex-SemiBold.woff2") format("woff2");
+  src: url("../Fonts/BinancePlex-SemiBold.woff2") format("woff2");
 }
 
 * {
@@ -171,6 +171,8 @@ input::placeholder {
   font-weight: 500;
   margin-top: 24px;
   cursor: pointer;
+  display: block;
+  text-decoration: none;
 }
 
 .dark-mode body {
