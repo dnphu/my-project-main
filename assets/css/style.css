@@ -773,6 +773,10 @@ body.dark-mode .slider-section {
   transform-origin: top left;
   transition: transform 0.3s ease;
   width: fit-content;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 .product-card {
   position: relative;
@@ -790,7 +794,7 @@ body.dark-mode .slider-section {
 }
 .card-gradient {
   height: 60%;
-  background-image: url(cardGradient.jpg);
+  background-image: url("../pictures/cardGradient.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
